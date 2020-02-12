@@ -1,0 +1,73 @@
+/*Reset CSS*/
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,
+dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;padding: 0;
+border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}ol, ul {list-style: none;}blockquote, q {quotes: none;}blockquote:before, blockquote:after,
+q:before, q:after {content: '';content: none;}table {border-collapse: collapse;border-spacing: 0;}
+/*Generic CSS*/
+.container{width:1400px;margin:0 auto;font-family:  ptson; background-color: #fcdb00;}
+h1{font-size:32px; color:#010101;}
+h2{font-size:22px; color:#010101 ;}
+h4{font-size: 16px; color: #ffffff;}
+p{font-size:22px; color:#313841;}
+.p2{font-size:16px; color:#898989;}
+.clear{clear: both;}
+/*Font-Face*/
+@font-face{src:url(../fonts/pt-sans-bold_[allfont.net].ttf);font-family: ptson;}
+@font-face{src:url(../fonts/pt-sans.regular.ttf);font-family: ptsonr;}
+/*Header Section*/
+	.header .logo{float: left; margin:90px 0 27px 232px;}
+	.header .nav{float: right; margin:76px 232px 21px 0;}
+	.header .nav li{display: inline-block;margin-left:72px;}
+	.header .nav li a{font-size:22px;color:#010101;text-decoration: none;font-family: ptson;}
+	.header .nav li a:hover{color:#010101;}
+/*Category Section*/
+	.category1{background-color: #fff;width: 1400px;}
+	.category1 h1{margin: 119px 586px 23px 584px;font-size: 32px;font-family: ptson;color: #010101;}
+	.category1 p{margin:0 336px 95px 332px;text-align: center;font-size: 20px;font-family: ptsonr;color: #313841;}
+	.category{background-color: #fff;width: 1400px;}
+	.category .cat_1{width: 980px;margin: 0 245px 80px 245px;}
+	.category .cat_1 p{font-family: 22px;color: #010101;font-family: ptson;margin-bottom: 15px;}
+	.category .cat_1 span{font-family: 16px;color: #898989;font-family: ptsonr;}	
+	.category .cat_1 .s1{width:33%;float: left; }
+	.category .cat_1 .s1 .sec_1{width:20%;float: left;}
+	.category .cat_1 .s1 .sec_2{width:80%;float: left;}
+	.category .cat_1 .s2{width:33%;float: left;}
+	.category .cat_1 .s2 .sec_3{width:20%;float: left;}
+	.category .cat_1 .s2 .sec_4{width:80%;float: left;}
+	.category .cat_1 .s3{width:33%;float: left;}
+	.category .cat_1 .s3 .sec_5{width:20%;float: left;}
+	.category .cat_1 .s3 .sec_6{width:80%;float: left;}
+
+	.category .cat_2{width: 980px;margin: 0 245px 160px 245px;}
+	.category .cat_2 p{font-family: 22px;color: #010101;font-family: ptson;margin-bottom: 15px;}
+	.category .cat_2 span{font-family: 16px;color: #898989;font-family: ptsonr;}
+	.category .cat_2 .s4{width:33%;float: left;}
+	.category .cat_2 .s4 .sec_7{width:20%;float: left;}
+	.category .cat_2 .s4 .sec_8{width:80%;float: left;}
+	.category .cat_2 .s5{width:33%;float: left;}
+	.category .cat_2 .s5 .sec_9{width:20%;float: left;}
+	.category .cat_2 .s5 .sec_10{width:80%;float: left;}
+	.category .cat_2 .s6{width:33%;float: left;}
+	.category .cat_2 .s6 .sec_11{width:20%;float: left;}
+	.category .cat_2 .s6 .sec_12{width:80%;float: left;}
+
+	/*footer section*/
+	.footer{text-align: center;background-color: #010101;padding-top: 90px;width: 1400px;}
+	.footer h1{margin-bottom: 26px;color: #fcdb00;font-size: 32px;font-family: ptson;}
+	.footer p{margin-bottom: 41px;color: #898989;font-size: 20px;font-family: ptsonr;}
+	input{border-radius: 5%; height: 50px;width: 580px;text-align: center;border: none;margin: 0 0 75px 0;}
+	button{margin-left: 25px; height: 54px;width: 125px;background-color: #fcdb00;font-family: ptson;font-size: 16px;border: none;}
+	.footer img{margin-bottom: 130px;}
+	.foot{width: 980px;margin: 0 245px;}
+	.foot .foot_1{float: left;width: 20%;}
+	.foot .foot_2{float: left;width: 20%;}
+	.foot .foot_3{float: left;width: 20%;}
+	.foot .foot_4{float: left;width: 20%;}
+	.foot .foot_5{float: left;width: 20%;}
+	li{color: #fff;font-size: 16px;font-family: ptsonr;}
+	.foot p{font-size:16px ;font-family:ptsonr ;color: #fff;}
